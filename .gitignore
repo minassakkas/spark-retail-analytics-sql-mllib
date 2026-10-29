@@ -1,0 +1,20 @@
+# Dataset (161 MB, exceeds GitHub's 100 MB limit) and course lab material
+data/
+toy-ml.ipynb
+bclassify.ipynb
+kmeans.ipynb
+fp-growth.ipynb
+
+# Graded submission copy (contains student ID)
+p2822530-*.ipynb
+
+# Python / Jupyter / Spark artefacts
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# macOS
+.DS_Store
