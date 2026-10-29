@@ -1,5 +1,5 @@
 pyspark==4.0.1
-pandas==3.1.0
+pandas==2.3.3  # PySpark 4.0 is not yet compatible with pandas 3
 pyarrow==26.0.0
 matplotlib==3.11.2
 jupyter
