@@ -1,5 +1,6 @@
 # Dataset (161 MB, exceeds GitHub's 100 MB limit) and course lab material
 data/
+retail-dataset.csv*
 toy-ml.ipynb
 bclassify.ipynb
 kmeans.ipynb

@@ -20,12 +20,12 @@ The scenario: a quick-commerce company wants to understand its customers' purcha
 - Model evaluation with the silhouette score (squared Euclidean distance)
 
 ## Tech stack
-Apache Spark 4.0 · PySpark · Spark SQL · Spark MLlib · pandas · matplotlib · Jupyter
+Apache Spark 4.0 · PySpark · Spark SQL · Spark MLlib · Jupyter
 
 ## Dataset
 Synthetic retail transactions (≈161 MB CSV, 13 columns: transaction date, customer, products, items, total cost,
 payment method, city, store type, discount, customer category, season, promotion).
-The file is not included in the repository because of its size; place it at `data/retail-dataset.csv`.
+The file is not included in the repository because of its size; place `retail-dataset.csv` (or the `.zip`) next to the notebook.
 
 ## How to run
 Requires Java 17 and Python 3.10–3.12.
