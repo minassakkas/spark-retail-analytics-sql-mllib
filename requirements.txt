@@ -1,2 +1,3 @@
 pyspark==4.0.1
+pandas<3  # only for displaying tables; PySpark 4.0 is not compatible with pandas 3
 jupyter
